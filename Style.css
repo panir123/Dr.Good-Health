@@ -1,0 +1,295 @@
+/*general styles*/
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+line-height:1.6rem;
+color:#333;
+}
+
+.container{
+max-width:1200px;
+margin:0 auto;
+}
+
+/*Header styles*/
+
+.header{
+background:#4caf50;
+text-align: center;
+padding:3rem;
+color:white;
+}
+
+.header h1{
+font-size:2.5em;
+padding-top:1rem;
+}
+
+.header p{
+font-size:1.2em;
+padding-top:3rem;
+}
+
+/*Navbar styles*/
+
+.navbar{
+background:#333;
+padding:1.7rem;
+position:sticky;
+top:0;
+}
+
+.navbar ul{
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+.navbar ul li{
+padding-left:2rem;
+padding-right:2rem;
+}
+
+.navbar ul li a{
+text-decoration:none;
+color: white;
+}
+
+.navbar ul li a:hover{
+ background:#575757;
+ border-radius:4px;
+ padding: 10px;
+}
+
+/*Hero section styles*/
+
+.hero{
+ background:url(https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=600) center center/cover;
+ padding:5rem;
+ text-align: center;
+ color:white;
+}
+
+.hero h2{
+ font-size:2em;
+ padding-bottom:2rem;
+}
+
+.hero p{
+ font-size:1.2em;
+ margin-bottom:1em;
+}
+
+.hero .btn{
+ background:#4caf50;
+ padding:10px;
+ text-decoration:none;
+ color:white;
+ border-radius:5px;
+}
+
+.hero .btn:hover{
+background: #45a049;
+}
+
+/*About section styles*/
+
+.about{
+text-align: center;
+padding:4em;
+float: right;
+background:white;
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+text-align: center;
+}
+
+
+.about-content p{
+    max-width:50%;
+    text-align: left;
+    margin-top:30px;
+}
+
+.about-content img{
+    border-radius: 50%;
+    height:10rem;
+}
+
+/*Services section styles*/
+
+.services{
+background:#f4f4f4;
+text-align: center;
+height:1200px;
+
+}
+
+.services .service-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:70rem;
+    gap: 2em;
+}
+
+
+
+.services .service-item{
+max-width:300px;
+border: 2rem solid white;
+background:white;
+flex: 1 1 300px;
+border-radius:1rem;
+box-shadow: 10px 10px 20px darkslategray;
+flex-wrap: wrap;
+margin-top: 20px;
+height:370px;
+}
+
+.services .service-item:hover{
+    transform: translatey(-15px);
+    transition:all 0.3s ease-in-out;
+}
+
+.services .service-item img{
+max-width:13rem;
+min-height:13rem;
+display: flex;
+border-radius:4px;
+}
+
+.services .service-item h3{
+ text-align: center;
+
+}
+
+/*Team section styles*/
+
+.team{
+    background: white;
+    max-height:350px;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+}
+
+.team .team-list{
+    display: flex;
+    flex-wrap: wrap;
+text-align: center;
+justify-content: space-evenly;
+}
+
+.team .team-member{
+justify-content: center;
+}
+
+.team .team-member img{
+width:150px;
+height:150px;
+display: block;
+margin: auto;
+border-radius:50%;
+padding-top: 15px;
+}
+
+.team .team-member h3{
+padding-bottom: 5px;
+}
+
+.team .team-member p{
+text-align: center;
+color: #4caf50;
+}
+
+/*Testimonial section styles*/
+
+.testimonials{
+background: #f4f4f4;
+height:400px;
+text-align: center;
+padding-top:20px;
+
+}
+
+/*.testimonials .testimonial-list{
+ 
+}*/
+
+.testimonials .testimonial-item{
+background-color:white;
+padding:2rem;
+margin-bottom:20px;
+border-radius:1rem;
+box-shadow: -1px 1px 10px gray;
+margin:20px;
+font-style: italic;
+}
+
+/*.testimonials .testimonial-item p{
+
+}*/
+
+/*Contact section styles*/
+
+.contact{
+text-align: center;
+padding:4em;
+
+}
+
+/*form{
+
+}
+
+.contact form .form-group{
+
+}*/
+
+.contact form label{
+display: block;
+}
+
+.contact form input, .contact form textarea{
+width:600px;
+height:40px;
+margin-bottom:20px;
+border: 1px solid lightgray;
+}
+
+.contact form textarea{
+width:600px;
+height:100px;
+}
+
+.contact form button{
+background: #4caf50;
+color: white;
+padding:10px;
+border:none;
+border-radius:5px;
+}
+
+.contact form button:hover{
+background: #45a049;
+}
+
+/*footer styles*/
+
+.footer{
+background:#333;
+padding:1em;
+color:white;
+text-align: center;
+}
+
